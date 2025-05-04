@@ -6,13 +6,23 @@
   <title>Exemple GA4 via GTM</title>
   
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TN3MJRR8');</script>
-<!-- End Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TN3MJRR8');</script>
+  <!-- End Google Tag Manager -->
 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 2rem;
+    }
+    .spacer {
+      height: 2000px;
+    }
+  </style>
 </head>
 <body>
 
@@ -25,6 +35,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <h1>Ma page avec GA4 via GTM</h1>
   <p>Bienvenue sur ma page test avec Google Analytics 4 via Google Tag Manager.</p>
+
+  <h2>Liens sortants pour test GA4</h2>
+  <ul>
+    <li><a href="https://matomo.org" target="_blank">Lien vers Matomo</a></li>
+    <li><a href="https://www.google.com" target="_blank">Lien vers Google</a></li>
+    <li><a href="https://www.wikipedia.org" target="_blank">Lien vers Wikipedia</a></li>
+  </ul>
+
+  <div class="spacer"></div>
+
+  <p>Merci d’avoir visité cette page. Tu peux faire défiler jusqu’en bas pour tester le suivi de scrolls.</p>
 
 </body>
 </html>
